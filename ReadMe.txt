@@ -1,4 +1,4 @@
-Mauricio Fossas Koval. Lab 3.
+The following explains the object oriented behaviour, structure, and tests performed for a TicTacToe game which can be played between 2 players or against a (smart) computer.
 
 I initialy created a header which would hold the class (TicTacToeGame) and any enums or return values for my 
 functions. 
@@ -189,7 +189,7 @@ is equal to 0.
 After a few more tests and debugging I noticed that the stack looked messy when calling functions recursively
 to ask for an appropriate input, so instead of recursion I just wrapped prompt() and turn() in a while loop.
 
-Extra credit:
+Computer player:
 I began by giving the player the option to start (O) or for the computer to start (X). I encompassed all playing
 moves, weather they were computer or user moves in a while loop which ran up to moves<9. If the computer started I 
 placed the piece in the bottom left corner (because there technically is no best place to put your first piece
